@@ -1,6 +1,4 @@
 <?php
-
-//google url https://accounts.google.com/AuthSubRequest?scope=https%3A%2F%2Fpicasaweb.google.com%2Fdata&amp;session=1&amp;secure=0&amp;next=http%3A%2F%2Faddsharesale.com%2Fpicasa%2Fcatalog_upload.php
 error_reporting(0);
 require_once 'Zend/Loader.php';
 /**
