@@ -1,4 +1,3 @@
-
 <?php
 
 //google url https://accounts.google.com/AuthSubRequest?scope=https%3A%2F%2Fpicasaweb.google.com%2Fdata&amp;session=1&amp;secure=0&amp;next=http%3A%2F%2Faddsharesale.com%2Fpicasa%2Fcatalog_upload.php
@@ -48,7 +47,7 @@ $image_dir = $_SERVER['DOCUMENT_ROOT'] . "/picasa/image";
 
 
  if($_GET['token']==''){
-            echo '<a href="https://accounts.google.com/AuthSubRequest?next=http%3A%2F%2Flocalhost%2Fpicasawebapi%2Findex.php&scope=http%3A%2F%2Fpicasaweb.google.com%2Fdata&secure&session=1"> Authenticate Goolge account</a>';
+            echo '<a href="https://accounts.google.com/AuthSubRequest?next=http%3A%2F%2Flocalhost%2Fpicasa%2Findex.php&scope=http%3A%2F%2Fpicasaweb.google.com%2Fdata&secure&session=1"> Authenticate Goolge account</a>';
             exit;
 }
 $client=Zend_Gdata_Mk::getAuthSubHttpClient();
